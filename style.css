@@ -1,0 +1,49 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: #61dafb;
+    font-family: Arial, sans-serif;
+
+}
+
+/* Clock container */
+.clock-container {
+    background-color: #111827;
+    padding: 40px 60px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Title */
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #9ca3af;
+}
+
+/* Clock time */
+.clock {
+    font-size: 3.2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #60a5fa;
+}
+
+/* Date display */
+.date {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #d1d5db;
+}
